@@ -1,3 +1,3 @@
   $("#show").click(function(){
-    $("submmit").show();
+    $("submmitg").show();
   });
