@@ -3,5 +3,5 @@ $("#hide").click(function(){
   });
   
   $("#show").click(function(){
-    $("p").show();
+    $("submmitg").show();
   });
