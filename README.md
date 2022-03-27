@@ -10,4 +10,5 @@
    Javascript
 ## Setup instructions and installations   
    Clone this repository to a location in your file system "https://github.com/janeffer945/Quiz.git" 
-## Link to live link   
+## Link to live link 
+     https://janeffer945.github.io/Quiz/
