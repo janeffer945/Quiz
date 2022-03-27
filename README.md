@@ -9,3 +9,5 @@
    Jsfiddle
    Javascript
 ## Setup instructions and installations   
+   Clone this repository to a location in your file system "https://github.com/janeffer945/Quiz.git" 
+    
