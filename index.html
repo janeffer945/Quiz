@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
      crossorigin="anonymous">
      <link rel="stylesheet" href="css/index.css">
     <title>Quiz Board</title>
     </head>
 <body>
+  <header>Congratulations on starting your coding</header>
+  <p id="welcome"></p>
     <h1>QUIZ BOARD</h1>
-    <div class="container">
-    <p>1. What is the shortform of HTML</p> 
-      <form>
-   <input type="radio" id="html" name="fav_language" value="HTML">
-  <label for="html">HTML</label><br>
-  <input type="radio" id="hmlt" name="fav_language" value="HMLT">
-  <label for="hmlt">HMLT</label><br>
-  <input type="radio" id="MLHT"name="fav_language" value="MLHT">
-  <label for="MLHT">MLHT</label>
+    <div id="container">
+      <form >
+      <p>1. What is the shortform of HTML</p>     
+     <input type="radio" id="correct1" name="fav_language" value="HTML"required>
+     <label for="html">HTML</label><br>
+     <input type="radio" id="hmlt" name="fav_language" value="HMLT">
+     <label for="hmlt">HMLT</label><br>
+    <input type="radio" id="MLHT"name="fav_language" value="MLHT">
+    <label for="MLHT">MLHT</label>
 </form>
+</div>
 <div class="container">
-  <P>2. What is the other name of javascript</P> 
-      <form>
-    <input type="radio" id="emmascript" name="fav_language" value="EMMASCRIPT">
+  <form>
+      <P>2. What is the other name of javascript</P>    
+    <input type="radio" id="correct2" name="fav_language" value="EMMASCRIPT">
    <label for="emmascript">EMMASCRIPT</label><br>
    <input type="radio" id="js" name="fav_language" value="js">   
    <label for="">JS</label><br>
@@ -35,15 +39,34 @@
    <div class="container">
        <form>
        <p>3. Is c++ a low level language</p>   
-       <input type="radio" id="yes" name="fav_language" value="Yes">
+       <input type="radio" id="correct3" name="fav_language" value="Yes">
    <label for="yes">Yes</label><br>
-   <input type="radio" id="js" name="fav_language" value="No">
+   <input type="radio" id="correct" name="fav_language" value="No">
    <label for="no">No</label><br> 
 </form> 
-  </div>  
-  <input type="submit" value="Submit">  
-   <button type="button"onclick="alert('total')">total</button>
-  <script src="js/script.js"></script> 
+  </div>
+  <div class="container">
+    <form>
+      <p>4. what sorrounds a string</p>
+      <input type="radio" id="correcte4" name="fav_language" value="parenthensis">
+      <label for="parenthensis">parenthensis</label><br>
+      <input type="radio" id="correct" name="fav_language" value="curly brackets">
+      <label for="no">curly brackets</label><br> 
+    </form>
+  </div>
+  <div class="container">
+    <form >
+      <p>5. The tittle tag always goes in the?</p>
+      <input type="radio" id="correct" name="fav_language" value="header">
+      <label for="header">header</label><br>
+      <input type="radio" id="correct5" name="fav_language" value="head">
+      <label for="head">head</label><br> 
+
+    </form>
+  </div>
+  <button type="button" onclick="myfunction()">Check your Score</button>
+            <p id="scorep"></p>
+        <script src="js/script.js"></script> 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
    crossorigin="anonymous"></script>
 </body>
